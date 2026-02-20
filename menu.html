@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../images/logo2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food website | Food Menu</title>
+</head>
+
+<body>
+    <!--Header for laptop (start)-->
+    <header>
+        <div class="header">
+
+            <!--Sign up/Sign in Form-->
+            <div class="sign">
+                <div class="sign-box">
+                    <div class="bar">
+                        <i class="fa-solid fa-xmark" id="x-sign-mb"></i>
+                    </div>
+                    <!-- sign up form  -->
+                    <div class="signup">
+                        <h3>Sign Up</h3>
+                        <form action="#">
+                            <label for="fullname">Enter Full Name</label></br>
+                            <input type="text" placeholder="Full Name" name="fullname" id=""></br>
+                            <label for="email">Enter E-mail</label></br>
+                            <input type="email" placeholder="E-mail" name="email" id=""></br>
+                            <label for="password">Create Password</label></br>
+                            <input type="password" placeholder="Password" name="password" id=""></br>
+                            <label for="copassword">Confirm Password</label></br>
+                            <input type="password" placeholder="Confirm Password" name="copassword" id=""></br>
+                            <input type="submit" value="Sign Up">
+                            <p id="to-signin">Already have an account? Sign In</p>
+                        </form>
+                    </div>
+                    <!-- sign in form  -->
+                    <div class="signin">
+                        <h3>Sign In</h3>
+                        <form action="#">
+                            <label for="email2">Enter Your E-mail:</label>
+                            <input type="email" placeholder="E-mail" name="email2" id="">
+                            <label for="password2">Enter Password: </label>
+                            <input type="password" placeholder="Password" name="password2" id="">
+                            <input type="submit" value="Sign In">
+                        </form>
+                        <p>Forgot Password?</p>
+                        <p id="to-signup">Don't have an account? Sign Up</p>
+                    </div>
+                </div>
+            </div>
+            <!--Hidden Header for Mobile/Tablet (start)-->
+            <div class="headerbar">
+                <div class="account">
+                    <ul>
+                        <a href="./index.html">
+                            <li><i class="fa-solid fa-house-chimney"></i></li>
+                        </a>
+                        <a href="#">
+                            <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i></li>
+                        </a>
+                        <div class="search" id="searchinput1">
+                            <input type="search" name="" id="">
+                            <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                        </div>
+                        <a href="#">
+                            <li><i class="fa-solid fa-user" id="user-mb"></i></li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <a href="./index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="./About.html">
+                            <li>About</li>
+                        </a>
+                        <a href="./menu.html">
+                            <li>Food Menu</li>
+                        </a>
+                        <a href="./book.html">
+                            <li>Book table</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <!--Hidden Header for Mobile/Tablet (end)-->
+            <div class="logo">
+                <img src="../images/logo4.png" alt="logo">
+            </div>
+            <!--Bar/cross in header for mobile/tablet (start)-->
+            <div class="bar">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark" id="hdcross"></i>
+            </div>
+            <!--Bar/cross in header for mobile/tablet (end)-->
+            <div class="nav">
+                <ul>
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./About.html">
+                        <li>About</li>
+                    </a>
+                    <a href="./menu.html">
+                        <li>Food Menu</li>
+                    </a>
+                    <a href="./book.html">
+                        <li>Book table</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="account">
+                <ul>
+                    <a href="./index.html">
+                        <li><i class="fa-solid fa-house-chimney"></i></li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i></li>
+                    </a>
+                    <div class="search" id="searchinput2">
+                        <input type="search" name="" id="">
+                        <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                    </div>
+                    <a href="#">
+                        <li><i class="fa-solid fa-user" id="user-lap"></i></li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--Header for laptop (end)-->
+
+    <div class="menu">
+        <div class="menu1">
+            <div>
+                <h1>Food Menu</h1>
+            </div>
+            <div class="fav-head">
+                <!-- Add your all food items  -->
+                <div class="fav-food">
+                    <div class="item">
+                        <div>
+                            <img src="../images/food1.jpg" alt="Food item">
+                        </div>
+                        <h3>Filter coffee</h3>
+                        <p>filter coffee is a classic aromatic beverage. </p>
+                        <p class="fav-price">rs.40.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food10.jpg" alt="Food item">
+                        </div>
+                        <h3>Idli Vada</h3>
+                        <p>Idly and vada are popular South Indian breakfast items, often served together. </p>
+                        <p class="fav-price">rs.70.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food11.jpg" alt="Food item">
+                        </div>
+                        <h3>Dosa</h3>
+                        <p>Thin crispy pancake,a staple in south Indian cuisine. </p>
+                        <p class="fav-price">rs.70.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food12.jpg" alt="Food item">
+                        </div>
+                        <h3>chole bhature </h3>
+                        <p>chole bhature is a north indian dish which is a flavorful combo. </p>
+                        <p class="fav-price">rs.90.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food13.jpg" alt="Food item">
+                        </div>
+                        <h3>sushi</h3>
+                        <p>sushi is a japanese dish which contains rice,seafood and vegetables. </p>
+                        <p class="fav-price">rs.500.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food4.jpg" alt="Food item">
+                        </div>
+                        <h3>Hyderabadi biryani</h3>
+                        <p>known for it's unique blend of spices,meat and rice. </p>
+                        <p class="fav-price">rs.250.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food7.jpg" alt="Food item">
+                        </div>
+                        <h3>Paneer Butter Masala</h3>
+                        <p>is a creamy indian vegetarian dish. </p>
+                        <p class="fav-price">rs.200.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food8.jpg" alt="Food item">
+                        </div>
+                        <h3>Butter Naan</h3>
+                        <p>flatbread, accompanied with various curries and dishes. </p>
+                        <p class="fav-price">rs.50.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food14.jpg" alt="Food item">
+                        </div>
+                        <h3>Butter Chicken</h3>
+                        <p>is known for its rich and savory flavor profile. </p>
+                        <p class="fav-price">rs.300.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/item4.jpg" alt="Food item">
+                        </div>
+                        <h3>Veg Thali</h3>
+                        <p>is a diverse Indian platter.</p>
+                        <p class="fav-price">rs.350.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food5.jpg" alt="Food item">
+                        </div>
+                        <h3>Soft drinks</h3>
+                        <p>provides fizzy and refreshing experience. </p>
+                        <p class="fav-price">rs.75.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food3.jpg" alt="Food item">
+                        </div>
+                        <h3>Momos</h3>
+                        <p>steamed and fried dumplings of meat or veggies.</p>
+                        <p class="fav-price">rs.100.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food2.jpg" alt="Food item">
+                        </div>
+                        <h3>Noodles</h3>
+                        <p>noodles are versatile and comforting culinary canvas.</p>
+                        <p class="fav-price">rs.120.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food6.jpg" alt="Food item">
+                        </div>
+                        <h3>Soup</h3>
+                        <p>comforting and nourishing liquid dish made of meat or veggies. </p>
+                        <p class="fav-price">rs.150.00</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="../images/food9.jpg" alt="Food item">
+                        </div>
+                        <h3>Tandoori Chicken</h3>
+                        <p>spiced perfection charred to aromatic excellence in tandoor.</p>
+                        <p class="fav-price">rs.150.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-1">
+            <div class="logo">
+                <img src="../images/logo4.png" alt="logo">
+            </div>
+            <div>
+                <address>
+                        <p>Email:foodhub@gmail.com</p>
+                        <p>YouTube: FOODHUB</p>
+                        <p>Road no 12,</br>Jubliee Hills Hyderabad,</br> Telangana 500096.</p>
+                    </address>
+            </div>
+        </div>
+        <div class="footer-2">
+            <img src="../images/logo2.jpg" alt="">
+            <h2>Powered By <em>Foodhub</em></h2>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
